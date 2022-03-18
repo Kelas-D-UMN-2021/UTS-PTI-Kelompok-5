@@ -1,0 +1,80 @@
+#character span {
+    background-color: transparent; 
+    border-color: transparent;
+}
+
+#active {
+    display: inline-block;
+}
+
+#inactive {
+    display: none;
+}
+
+#ch-img {
+    display: inline;
+}
+
+#progBar {
+    width: 60%;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+
+#progBar img {
+    width: 50px;
+}
+
+progress {
+    height: 30px;
+    margin-left: 20px;
+}
+
+body {
+    background-size: cover;
+    background-repeat: inherit;
+    padding: 0;
+    margin: 0;
+    background-image: url(aset/gradasi.jpg);
+}
+
+button#name {
+    background-color: #0275d8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0275d8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#prev, #next {
+    font-size: 40px;
+}
+
+#char {
+    margin-left: 100px;
+}
+
+.tes {
+    margin-left: 20px;
+}
+
+#exit {
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+}
